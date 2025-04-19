@@ -121,7 +121,7 @@ int main() {
     printf("Digite sua escolha: ");
     scanf("%d", &atributo1);
 
-    // Menu dinâmico para escolha do segundo atributo
+    // Menu dinâmico para escolha do segundo atributo - Particulamente essa parte foi a mais dificil
     printf("Escolha o segundo atributo para comparar (diferente do primeiro):\n");
     switch (atributo1) {
         case 1: printf("2. Área\n3. PIB\n4. Pontos Turísticos\n5. Densidade Populacional\n6. PIB per Capita\n"); break;
